@@ -15,7 +15,7 @@ public class Main {
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL);
         dataSourceConfig.setDriverName("com.mysql.cj.jdbc.Driver");
-        dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/dormitory2");
+        dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/dormitory");
         dataSourceConfig.setUsername("root");
         dataSourceConfig.setPassword("123456");
         autoGenerator.setDataSource(dataSourceConfig);
